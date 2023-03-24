@@ -221,8 +221,8 @@ def plotPoints(points,radius):
         xdata.append(item[0])
         ydata.append(item[1])
         zdata.append(item[2])
-    ax.scatter3D(xdata, ydata, zdata, c=zdata);
-        #plt.pause(0.05)
+        ax.scatter3D(xdata, ydata, zdata, c=zdata);
+        plt.pause(0.05)
     plt.show()
 
 
