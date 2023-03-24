@@ -1,4 +1,4 @@
-from uniformSphereSurface import *
+from UniformPointGenerator.uniformSphereSurface import *
 
 if __name__ == '__main__':
     radius = 1
